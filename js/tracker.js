@@ -1,8 +1,8 @@
 var mission_id = 0;
 var position_id = 0;
-var data_url = "//spacenear.us/tracker/datanew.php";
-var receivers_url = "//spacenear.us/tracker/receivers.php";
-var predictions_url = "//spacenear.us/tracker/get_predictions.php?vehicles=";
+var data_url = "//legacy-snus.habhub.org/tracker/datanew.php";
+var receivers_url = "//legacy-snus.habhub.org/tracker/receivers.php";
+var predictions_url = "//legacy-snus.habhub.org/tracker/get_predictions.php?vehicles=";
 
 var habitat_max = 400;
 //var habitat_url = "//habitat.habhub.org/habitat/";

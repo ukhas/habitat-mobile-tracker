@@ -206,7 +206,7 @@ var loadComplete = function(e) {
 var hysplit = {};
 var hysplit_data = {};
 var refresh_hysplit = function() {
-    $.getJSON("//spacenear.us/tracker/datanew.php?type=hysplit&format=json", function(data) {
+    $.getJSON("//legacy-snus.habhub.org/tracker/datanew.php?type=hysplit&format=json", function(data) {
         var refresh = false;
 
         for(var k in data) {
@@ -686,7 +686,7 @@ $(window).ready(function() {
             if(name == 'about' && !$('#motd').hasClass('inited')) {
                 $('#motd').addClass('inited');
 
-                $.getJSON("//spacenear.us/tracker/datanew.php?type=info", function(data) {
+                $.getJSON("//legacy-snus.habhub.org/tracker/datanew.php?type=info", function(data) {
                     if('html' in data) $('#motd').html(data.html.replace(/\\/g,''));
                 });
 
